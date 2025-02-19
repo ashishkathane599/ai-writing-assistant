@@ -146,7 +146,7 @@ export default async function handler(
 
   try {
     const completion = await openai.createCompletion({
-      model: 'text-davinci-003',
+      model: 'gpt-3.5-turbo',
       prompt,
       temperature,
       max_tokens: 550,
